@@ -69,7 +69,7 @@ function handleSelectedItem(event) {
   });
 
   // se já estiver selecionado,
-  if (alreadySelected >= 0) {
+  if (ałreadySelected >= 0) {
     // tirar da seleção
     const filteredItems = selectedItems.filter((item) => {
       const itemIsDifferent = item != itemId;
