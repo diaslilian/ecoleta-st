@@ -26,6 +26,14 @@
   #page-search-results .cards img {
     height: 200px;
   }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field+.field {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1700px) {
@@ -37,5 +45,83 @@
 @media (max-height: 760px) {
   #page-home {
     background-position-y: 200px;
+  }
+}
+
+@media(max-width: 600px) {
+  .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form button {
+    margin: 40px auto;
+  }
+
+  form h1 {
+    text-align: center;
+  }
+}
+
+/* Moto G4 */
+@media(max-width: 360px) {
+
+  #page-create-point header a {
+    margin-left: 30px;
+  }
+
+  #page-create-point header a span {
+    width: 30px;
+  }
+
+  #page-create-point button {
+    margin-left: -47px;
+  }
+
+  #page-home header a {
+    top: 20%;
+    margin: 0 -10px;
+    bottom: auto;
+  }
+
+  #page-home header a span {
+    margin-right: auto;
+  }
+
+  #page-home main h1 {
+    font-size: 35px;
+  }
+
+  #page-search-results header a span {
+    margin-left: 20px;
+    width: 30px;
+  }
+
+  #modal .content {
+    width: auto;
+  }
+
+  #modal .header h1 {
+    font-size: 30px;
+  }
+
+  #modal .field {
+    height: 70px;
+  }
+
+  #modal form button {
+    margin: auto;
+    height: 70px;
+  }
+
+  .items-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form h1 {
+    text-align: center;
+  }
+
+  form fieldset .field-group {
+    margin-left: -30px;
   }
 }
