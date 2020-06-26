@@ -1,9 +1,14 @@
 /* background body */
+body {
+  background-color: #ffffff;
+}
+
 body::after {
+  background: #f0f0f5;
   content: "";
-  position: fixed;
-  background: #ffffff;
-  top: 260px;
+  position: absolute;
+  height: 16rem;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
